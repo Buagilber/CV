@@ -1,0 +1,47 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+.font-11 {
+    font-size: 11px;
+}
+
+/* Контейнер для інших елементів */
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.block {
+    border: 1px solid black;
+    padding: 20px;
+    width: 48%;
+    /* Залишаємо невеликий відступ між блоками */
+}
+
+/* Параграф на всю ширину */
+p {
+    text-align: justify;
+    /* Вирівнювання по ширині */
+}
