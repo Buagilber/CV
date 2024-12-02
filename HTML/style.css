@@ -1,47 +1,38 @@
-/* Загальні стилі */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-}
-
-.font-24 {
-    font-size: 24px;
-}
-
-.font-16 {
-    font-size: 16px;
-}
-
-.font-14 {
-    font-size: 14px;
-}
-
-.font-12 {
-    font-size: 12px;
-}
-
-.font-11 {
-    font-size: 11px;
-}
-
-/* Контейнер для інших елементів */
 .container {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
+    width: 505px;
     margin: 0 auto;
 }
 
-.block {
-    border: 1px solid black;
-    padding: 20px;
-    width: 48%;
-    /* Залишаємо невеликий відступ між блоками */
+.block1 {
+    display: flex;
 }
 
-/* Параграф на всю ширину */
-p {
+.info {
+    padding-left: 30px;
+}
+
+.block2 {
     text-align: justify;
-    /* Вирівнювання по ширині */
+    font-size: 12px;
+}
+
+.block3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 49%;
+}
+
+/* Додайте тут свої стилі для шрифтів, кольорів, відступів тощо */
+body {
+    font-family: Arial, sans-serif;
+}
+
+p {
+    line-height: 1.5; /* Висота рядка в 1.5 рази більша за розмір шрифту */
+    /* margin: 10px; Відступ 10 пікселів з усіх сторін */
+    margin-top: 10px; /* Відступ 20 пікселів зверху */
+    margin-bottom: 10px; /* Відступ 10 пікселів знизу */
 }
