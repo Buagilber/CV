@@ -1,0 +1,52 @@
+.container {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.maintext {
+    text-align: justify;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 45%;
+}
+
+.contacts {
+    padding-left: 0;
+    font-size: 11px;
+    font-style: italic;
+}
+
+/* Додайте тут свої стилі для шрифтів, кольорів, відступів тощо */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+p {
+    line-height: 1.5;
+    /* Висота рядка в 1.5 рази більша за розмір шрифту */
+    /* margin: 10px; Відступ 10 пікселів з усіх сторін */
+    margin-top: 10px;
+    /* Відступ 20 пікселів зверху */
+    margin-bottom: 10px;
+    /* Відступ 10 пікселів знизу */
+}
+
+h3 {
+    margin: 20px 0;
+    /* Верхній і нижній відступ 20px, лівий і правий - 0 */
+    padding: 0;
+}
+
+h4 {
+    margin: 0 0 0 0;
+    /* Верхній і нижній відступ 20px, лівий і правий - 0 */
+    padding: 0;
+}
