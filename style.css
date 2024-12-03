@@ -1,7 +1,7 @@
 .container {
-    width: 500px;
+    width: 768px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 2em;
 }
 
 .columns {
@@ -10,9 +10,9 @@
 }
 
 .image {
-    width: auto;
-    height: 165px;
-    margin-left: 15%;
+    width: 33%;
+    height: auto;
+    margin: 0 0 1em 10%;
 }
 
 .column {
@@ -21,32 +21,31 @@
 
 .contacts {
     padding-left: 0;
-    font-size: 11px;
+    font-size: 16px;
     font-style: italic;
 }
 
 body {
     font-family: Arial, sans-serif;
-    font-size: 12px;
+    font-size: 18px;
 }
 
 p {
     line-height: 1.5;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 1em 0;
 }
 
 .maintext {
     text-align: justify;
 }
 
-h3 {
-    margin: 20px 0;
+h2 {
+    margin: 1em 0;
     /* Верхній і нижній відступ 20px, лівий і правий - 0 */
     padding: 0;
 }
 
-h4 {
-    margin: 0 0 0 0;
+h3 {
+    margin: 0;
     padding: 0;
 }
