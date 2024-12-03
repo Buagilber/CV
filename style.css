@@ -30,9 +30,14 @@ body {
     font-size: 18px;
 }
 
+details summary {
+    cursor: pointer;
+    display: flex;
+}
+
 p {
     line-height: 1.5;
-    margin: 1em 0;
+    margin: 0 0 1em 0;
 }
 
 .maintext {
@@ -40,7 +45,7 @@ p {
 }
 
 h2 {
-    margin: 1em 0;
+    margin: 0.6em 0;
     /* Верхній і нижній відступ 20px, лівий і правий - 0 */
     padding: 0;
 }
