@@ -4,13 +4,15 @@
     margin-top: 50px;
 }
 
-.maintext {
-    text-align: justify;
-}
-
 .columns {
     display: flex;
     justify-content: space-between;
+}
+
+.image {
+    width: auto;
+    height: 165px;
+    margin-left: 15%;
 }
 
 .column {
@@ -23,7 +25,6 @@
     font-style: italic;
 }
 
-/* Додайте тут свої стилі для шрифтів, кольорів, відступів тощо */
 body {
     font-family: Arial, sans-serif;
     font-size: 12px;
@@ -31,12 +32,12 @@ body {
 
 p {
     line-height: 1.5;
-    /* Висота рядка в 1.5 рази більша за розмір шрифту */
-    /* margin: 10px; Відступ 10 пікселів з усіх сторін */
     margin-top: 10px;
-    /* Відступ 20 пікселів зверху */
     margin-bottom: 10px;
-    /* Відступ 10 пікселів знизу */
+}
+
+.maintext {
+    text-align: justify;
 }
 
 h3 {
@@ -47,6 +48,5 @@ h3 {
 
 h4 {
     margin: 0 0 0 0;
-    /* Верхній і нижній відступ 20px, лівий і правий - 0 */
     padding: 0;
 }
