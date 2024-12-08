@@ -1,0 +1,31 @@
+name,category,type,stat,effect,description,multiplier
+reduce health,health,negative,HP,1,reduce the maximum number of health points.,12
+reduce mana,mana,negative,MP,1,reduce the maximum number of mana points.,12
+reduce stamina,stamina,negative,ST,1,reduce the maximum number of stamina points.,12
+damage health,health,negative,HP,1,damage health points.,12
+damage mana,mana,negative,MP,1,damage mana points.,12
+damage stamina,stamina,negative,ST,1,damage stamina points.,12
+fortify health,health,positive,HP,1,fortify the maximum number of health points.,12
+fortify mana,mana,positive,MP,1,fortify the maximum number of mana points.,12
+fortify stamina,stamina,positive,ST,1,fortify the maximum number of stamina points.,12
+restore health,health,positive,HP,1,restore health points.,12
+restore mana,mana,positive,MP,1,restore mana points.,12
+restore stamina,stamina,positive,ST,1,restore stamina points.,12
+reduce health regeneration,health,negative,HPreg,6,reduce health regeneration.,16
+reduce mana regeneration,mana,negative,MPreg,6,reduce mana regeneration.,16
+reduce stamina regeneration,stamina,negative,STreg,6,reduce stamina regeneration.,16
+fortify health regeneration,health,positive,HPreg,6,fortify health regeneration.,16
+fortify mana regeneration,mana,positive,MPreg,6,fortify mana regeneration.,16
+fortify stamina regeneration,stamina,positive,STreg,6,fortify stamina regeneration.,16
+weakness fire,weakness,negative,fire,6,weakness to fire damage.,16
+weakness frost,weakness,negative,frost,6,weakness to frost damage.,16
+weakness poison,weakness,negative,poison,6,weakness to poison damage.,16
+weakness magic,weakness,negative,magic,6,weakness to magic damage.,16
+resist fire,resist,positive,fire,6,resist to fire damage.,16
+resist frost,resist,positive,frost,6,resist to frost damage.,16
+resist poison,resist,positive,poison,6,resist to poison damage.,16
+resist magic,resist,positive,magic,6,resist to magic damage.,16
+paralyze,curse,negative,paralyze,1,paralyze the character for a specified time.,8
+poision,curse,negative,poision,1,inflicts a poison effect on the character.,8
+blindness,curse,negative,blindness,3,inflicts a blindness effect on the character.,8
+silence,curse,negative,silence,3,inflicts a silence effect on the character.,8
