@@ -1,0 +1,360 @@
+[{
+  "_id": {
+    "$oid": "67562083b4fb0dbff644bb16"
+  },
+  "name": "reduce health",
+  "category": "health",
+  "type": "negative",
+  "stat": "HP",
+  "effect": 1,
+  "description": "reduce the maximum number of health points.",
+  "multiplier": 12
+},
+{
+  "_id": {
+    "$oid": "67562083b4fb0dbff644bb17"
+  },
+  "name": "reduce mana",
+  "category": "mana",
+  "type": "negative",
+  "stat": "MP",
+  "effect": 1,
+  "description": "reduce the maximum number of mana points.",
+  "multiplier": 12
+},
+{
+  "_id": {
+    "$oid": "67562083b4fb0dbff644bb18"
+  },
+  "name": "reduce stamina",
+  "category": "stamina",
+  "type": "negative",
+  "stat": "ST",
+  "effect": 1,
+  "description": "reduce the maximum number of stamina points.",
+  "multiplier": 12
+},
+{
+  "_id": {
+    "$oid": "67562083b4fb0dbff644bb19"
+  },
+  "name": "damage health",
+  "category": "health",
+  "type": "negative",
+  "stat": "HP",
+  "effect": 1,
+  "description": "damage health points.",
+  "multiplier": 12
+},
+{
+  "_id": {
+    "$oid": "67562083b4fb0dbff644bb1a"
+  },
+  "name": "damage mana",
+  "category": "mana",
+  "type": "negative",
+  "stat": "MP",
+  "effect": 1,
+  "description": "damage mana points.",
+  "multiplier": 12
+},
+{
+  "_id": {
+    "$oid": "67562083b4fb0dbff644bb1b"
+  },
+  "name": "damage stamina",
+  "category": "stamina",
+  "type": "negative",
+  "stat": "ST",
+  "effect": 1,
+  "description": "damage stamina points.",
+  "multiplier": 12
+},
+{
+  "_id": {
+    "$oid": "67562083b4fb0dbff644bb1c"
+  },
+  "name": "fortify health",
+  "category": "health",
+  "type": "positive",
+  "stat": "HP",
+  "effect": 1,
+  "description": "fortify the maximum number of health points.",
+  "multiplier": 12
+},
+{
+  "_id": {
+    "$oid": "67562083b4fb0dbff644bb1d"
+  },
+  "name": "fortify mana",
+  "category": "mana",
+  "type": "positive",
+  "stat": "MP",
+  "effect": 1,
+  "description": "fortify the maximum number of mana points.",
+  "multiplier": 12
+},
+{
+  "_id": {
+    "$oid": "67562083b4fb0dbff644bb1e"
+  },
+  "name": "fortify stamina",
+  "category": "stamina",
+  "type": "positive",
+  "stat": "ST",
+  "effect": 1,
+  "description": "fortify the maximum number of stamina points.",
+  "multiplier": 12
+},
+{
+  "_id": {
+    "$oid": "67562083b4fb0dbff644bb1f"
+  },
+  "name": "restore health",
+  "category": "health",
+  "type": "positive",
+  "stat": "HP",
+  "effect": 1,
+  "description": "restore health points.",
+  "multiplier": 12
+},
+{
+  "_id": {
+    "$oid": "67562083b4fb0dbff644bb20"
+  },
+  "name": "restore mana",
+  "category": "mana",
+  "type": "positive",
+  "stat": "MP",
+  "effect": 1,
+  "description": "restore mana points.",
+  "multiplier": 12
+},
+{
+  "_id": {
+    "$oid": "67562083b4fb0dbff644bb21"
+  },
+  "name": "restore stamina",
+  "category": "stamina",
+  "type": "positive",
+  "stat": "ST",
+  "effect": 1,
+  "description": "restore stamina points.",
+  "multiplier": 12
+},
+{
+  "_id": {
+    "$oid": "67562083b4fb0dbff644bb22"
+  },
+  "name": "reduce health regeneration",
+  "category": "health",
+  "type": "negative",
+  "stat": "HPreg",
+  "effect": 6,
+  "description": "reduce health regeneration.",
+  "multiplier": 16
+},
+{
+  "_id": {
+    "$oid": "67562083b4fb0dbff644bb23"
+  },
+  "name": "reduce mana regeneration",
+  "category": "mana",
+  "type": "negative",
+  "stat": "MPreg",
+  "effect": 6,
+  "description": "reduce mana regeneration.",
+  "multiplier": 16
+},
+{
+  "_id": {
+    "$oid": "67562083b4fb0dbff644bb24"
+  },
+  "name": "reduce stamina regeneration",
+  "category": "stamina",
+  "type": "negative",
+  "stat": "STreg",
+  "effect": 6,
+  "description": "reduce stamina regeneration.",
+  "multiplier": 16
+},
+{
+  "_id": {
+    "$oid": "67562083b4fb0dbff644bb25"
+  },
+  "name": "fortify health regeneration",
+  "category": "health",
+  "type": "positive",
+  "stat": "HPreg",
+  "effect": 6,
+  "description": "fortify health regeneration.",
+  "multiplier": 16
+},
+{
+  "_id": {
+    "$oid": "67562083b4fb0dbff644bb26"
+  },
+  "name": "fortify mana regeneration",
+  "category": "mana",
+  "type": "positive",
+  "stat": "MPreg",
+  "effect": 6,
+  "description": "fortify mana regeneration.",
+  "multiplier": 16
+},
+{
+  "_id": {
+    "$oid": "67562083b4fb0dbff644bb27"
+  },
+  "name": "fortify stamina regeneration",
+  "category": "stamina",
+  "type": "positive",
+  "stat": "STreg",
+  "effect": 6,
+  "description": "fortify stamina regeneration.",
+  "multiplier": 16
+},
+{
+  "_id": {
+    "$oid": "67562083b4fb0dbff644bb28"
+  },
+  "name": "weakness fire",
+  "category": "weakness",
+  "type": "negative",
+  "stat": "fire",
+  "effect": 6,
+  "description": "weakness to fire damage.",
+  "multiplier": 16
+},
+{
+  "_id": {
+    "$oid": "67562083b4fb0dbff644bb29"
+  },
+  "name": "weakness frost",
+  "category": "weakness",
+  "type": "negative",
+  "stat": "frost",
+  "effect": 6,
+  "description": "weakness to frost damage.",
+  "multiplier": 16
+},
+{
+  "_id": {
+    "$oid": "67562083b4fb0dbff644bb2a"
+  },
+  "name": "weakness poison",
+  "category": "weakness",
+  "type": "negative",
+  "stat": "poison",
+  "effect": 6,
+  "description": "weakness to poison damage.",
+  "multiplier": 16
+},
+{
+  "_id": {
+    "$oid": "67562083b4fb0dbff644bb2b"
+  },
+  "name": "weakness magic",
+  "category": "weakness",
+  "type": "negative",
+  "stat": "magic",
+  "effect": 6,
+  "description": "weakness to magic damage.",
+  "multiplier": 16
+},
+{
+  "_id": {
+    "$oid": "67562083b4fb0dbff644bb2c"
+  },
+  "name": "resist fire",
+  "category": "resist",
+  "type": "positive",
+  "stat": "fire",
+  "effect": 6,
+  "description": "resist to fire damage.",
+  "multiplier": 16
+},
+{
+  "_id": {
+    "$oid": "67562083b4fb0dbff644bb2d"
+  },
+  "name": "resist frost",
+  "category": "resist",
+  "type": "positive",
+  "stat": "frost",
+  "effect": 6,
+  "description": "resist to frost damage.",
+  "multiplier": 16
+},
+{
+  "_id": {
+    "$oid": "67562083b4fb0dbff644bb2e"
+  },
+  "name": "resist poison",
+  "category": "resist",
+  "type": "positive",
+  "stat": "poison",
+  "effect": 6,
+  "description": "resist to poison damage.",
+  "multiplier": 16
+},
+{
+  "_id": {
+    "$oid": "67562083b4fb0dbff644bb2f"
+  },
+  "name": "resist magic",
+  "category": "resist",
+  "type": "positive",
+  "stat": "magic",
+  "effect": 6,
+  "description": "resist to magic damage.",
+  "multiplier": 16
+},
+{
+  "_id": {
+    "$oid": "67562083b4fb0dbff644bb30"
+  },
+  "name": "paralyze",
+  "category": "curse",
+  "type": "negative",
+  "stat": "paralyze",
+  "effect": 1,
+  "description": "paralyze the character for a specified time.",
+  "multiplier": 8
+},
+{
+  "_id": {
+    "$oid": "67562083b4fb0dbff644bb31"
+  },
+  "name": "poision",
+  "category": "curse",
+  "type": "negative",
+  "stat": "poision",
+  "effect": 1,
+  "description": "inflicts a poison effect on the character.",
+  "multiplier": 8
+},
+{
+  "_id": {
+    "$oid": "67562083b4fb0dbff644bb32"
+  },
+  "name": "blindness",
+  "category": "curse",
+  "type": "negative",
+  "stat": "blindness",
+  "effect": 3,
+  "description": "inflicts a blindness effect on the character.",
+  "multiplier": 8
+},
+{
+  "_id": {
+    "$oid": "67562083b4fb0dbff644bb33"
+  },
+  "name": "silence",
+  "category": "curse",
+  "type": "negative",
+  "stat": "silence",
+  "effect": 3,
+  "description": "inflicts a silence effect on the character.",
+  "multiplier": 8
+}]

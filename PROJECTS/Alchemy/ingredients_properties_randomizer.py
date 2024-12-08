@@ -2,9 +2,8 @@ from pymongo import MongoClient
 import random
 
 # Підключення до бази даних
-client = MongoClient(
-    "mongodb+srv://Buagilber:e6O1Jlvqi0t3sW8r@learningcluster.pasif.mongodb.net/?retryWrites=true&w=majority")
-db = client["MyLearningProject"]
+client = MongoClient("mongodb://localhost:27017/")
+db = client["alchemy"]
 
 # Визначення порядкового номеру для назви колекції ingredients_list
 collection_count = len([name for name in db.list_collection_names(

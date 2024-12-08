@@ -1,0 +1,7 @@
+This is a tutorial project where I'm learning SQL queries. And since I'm not interested in easy ways, I decided to create my own database first. To do this, I chose the Alchemy theme and uploaded two collections with raw data to MongoDB: Ingredients and Properties.
+
+The Ingredients collection contains the names of 100 unique ingredients that I borrowed from The Elder Scrolls universe. The Properties collection includes information on 30 unique properties that I invented myself. According to my idea, this project should become a calculator of alchemical recipes. Using SQL queries, the user must select the ingredients to get the elixir with the desired properties. By convention, each ingredient has 4 unique properties, and each property must appear in the ingredients a certain number of times (for balance). And since assigning 4 properties to 100 ingredients in compliance with the listed conditions is not an easy task, I wrote the code that should do it for me.
+
+The Ingredients Properties Randomizer takes raw data from the DB, manipulates it, and adds the Ingredients List collection to the DB.
+
+A randomizer with my comments on the code, as well as example collections, is presented in this directory.

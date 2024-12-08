@@ -1,0 +1,600 @@
+[{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bab0"
+  },
+  "name": "Aeterna Ears"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bab1"
+  },
+  "name": "Amillaria"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bab2"
+  },
+  "name": "Artichoke"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bab3"
+  },
+  "name": "Baldris Root"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bab4"
+  },
+  "name": "Bear Claw"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bab5"
+  },
+  "name": "Bee"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bab6"
+  },
+  "name": "Bird Egg"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bab7"
+  },
+  "name": "Black Claw"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bab8"
+  },
+  "name": "Blue Butterfly Wing"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bab9"
+  },
+  "name": "Bone Meal"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644baba"
+  },
+  "name": "Bug Eggs"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644babb"
+  },
+  "name": "Chicken Egg"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644babc"
+  },
+  "name": "Claw"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644babd"
+  },
+  "name": "Crab Shell"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644babe"
+  },
+  "name": "Dark Tartak"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644babf"
+  },
+  "name": "Date"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bac0"
+  },
+  "name": "Demon Heart"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bac1"
+  },
+  "name": "Ectoplasm"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bac2"
+  },
+  "name": "Endralean Cotton"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bac3"
+  },
+  "name": "Ethereal Ectoplasm"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bac4"
+  },
+  "name": "Feathers"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bac5"
+  },
+  "name": "Feline Cat Teeth"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bac6"
+  },
+  "name": "Fire Salt"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bac7"
+  },
+  "name": "Firefinch Egg"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bac8"
+  },
+  "name": "Firefly"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bac9"
+  },
+  "name": "Fish Eggs"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644baca"
+  },
+  "name": "Fish Scales"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bacb"
+  },
+  "name": "Flour"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bacc"
+  },
+  "name": "Fog Sponge"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bacd"
+  },
+  "name": "Frost Salt"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bace"
+  },
+  "name": "Garlic"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bacf"
+  },
+  "name": "Ghost Wrapping"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bad0"
+  },
+  "name": "Glimmerdust"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bad1"
+  },
+  "name": "Glow Dust"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bad2"
+  },
+  "name": "Grimbulin"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bad3"
+  },
+  "name": "Hammerbird Egg"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bad4"
+  },
+  "name": "Hanging Moss"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bad5"
+  },
+  "name": "Hawk Claw"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bad6"
+  },
+  "name": "Hawk Feathers"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bad7"
+  },
+  "name": "Holly Berry"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bad8"
+  },
+  "name": "Ingredient"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bad9"
+  },
+  "name": "Juniper Berries"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bada"
+  },
+  "name": "Large Antlers"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644badb"
+  },
+  "name": "Laundress Mushroom"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644badc"
+  },
+  "name": "Lavender"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644badd"
+  },
+  "name": "Leafgull Egg"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bade"
+  },
+  "name": "Leucoagaricus"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644badf"
+  },
+  "name": "Lichen"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bae0"
+  },
+  "name": "Longfin"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bae1"
+  },
+  "name": "Lube Oil"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bae2"
+  },
+  "name": "Mana Salt"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bae3"
+  },
+  "name": "Mandragora"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bae4"
+  },
+  "name": "Moon Carrot Pulp"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bae5"
+  },
+  "name": "Mora Tapinella"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bae6"
+  },
+  "name": "Moth Wings"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bae7"
+  },
+  "name": "Mud Morel"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bae8"
+  },
+  "name": "Nightshade"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bae9"
+  },
+  "name": "Orange Dragonfly Wing"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644baea"
+  },
+  "name": "Peaceweed"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644baeb"
+  },
+  "name": "Peakdasher Egg"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644baec"
+  },
+  "name": "Pearl"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644baed"
+  },
+  "name": "Purple Malphas Flower"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644baee"
+  },
+  "name": "Rat Meat"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644baef"
+  },
+  "name": "Rat Skin"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644baf0"
+  },
+  "name": "Ravener Egg"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644baf1"
+  },
+  "name": "Red Malphas Flower"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644baf2"
+  },
+  "name": "Red Russula"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644baf3"
+  },
+  "name": "Red Vynroot"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644baf4"
+  },
+  "name": "Redfish"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644baf5"
+  },
+  "name": "River Snapper"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644baf6"
+  },
+  "name": "Root"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644baf7"
+  },
+  "name": "Salt"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644baf8"
+  },
+  "name": "Salt Root"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644baf9"
+  },
+  "name": "Sheer Cap"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bafa"
+  },
+  "name": "Silverling"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bafb"
+  },
+  "name": "Small Antlers"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bafc"
+  },
+  "name": "Small Pearl"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bafd"
+  },
+  "name": "Specter Tooth"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bafe"
+  },
+  "name": "Spicy Grass"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644baff"
+  },
+  "name": "Spiddal Cane"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bb00"
+  },
+  "name": "Spider Egg"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bb01"
+  },
+  "name": "Sporecrown"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bb02"
+  },
+  "name": "Stain Mushroom"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bb03"
+  },
+  "name": "Sugar"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bb04"
+  },
+  "name": "Taproot"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bb05"
+  },
+  "name": "Thistle"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bb06"
+  },
+  "name": "Tobacco"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bb07"
+  },
+  "name": "Troll Fat"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bb08"
+  },
+  "name": "Tuber"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bb09"
+  },
+  "name": "Tyarge Fat"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bb0a"
+  },
+  "name": "Vatyr Ear"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bb0b"
+  },
+  "name": "Vatyr Eyeball"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bb0c"
+  },
+  "name": "Vatyr's Tongue"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bb0d"
+  },
+  "name": "Void Salt"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bb0e"
+  },
+  "name": "Vynroot"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bb0f"
+  },
+  "name": "Wheat"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bb10"
+  },
+  "name": "Whisperweed"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bb11"
+  },
+  "name": "Wild Berry"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bb12"
+  },
+  "name": "Wolf Claws"
+},
+{
+  "_id": {
+    "$oid": "67562050b4fb0dbff644bb13"
+  },
+  "name": "Yellow Butterfly Wing"
+}]
