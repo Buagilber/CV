@@ -1,56 +1,220 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+:root {
+    --accent-color: #007acc;
+    --background: #f9fafb;
+    --text-color: #1f2937;
+    --heading-color: #111827;
+    --link-color: #007acc;
+    --link-hover: #005f99;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: var(--background);
+    color: var(--text-color);
+    padding: 1rem;
+}
+
 .container {
-    width: 768px;
+    max-width: 960px;
     margin: 0 auto;
-    margin-top: 2em;
+    padding: 2rem 1rem;
 }
 
 .columns {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: top;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
 }
 
 .image {
-    width: 33%;
-    height: auto;
-    margin: 0 0 1em 10%;
-}
-
-.column {
-    width: 40%;
+    width: 190px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15%;
+    object-position: center top;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .contacts {
-    padding-left: 0;
-    font-size: 16px;
-    font-style: italic;
+    flex: 1 1 300px;
+    font-style: normal;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    font-size: 18px;
+.contacts a {
+    color: var(--link-color);
+    text-decoration: none;
 }
 
-details summary {
-    cursor: pointer;
-    display: flex;
-}
-
-p {
-    line-height: 1.5;
-    margin: 0 0 1em 0;
+.contacts a:hover {
+    text-decoration: underline;
+    color: var(--link-hover);
 }
 
 .maintext {
     text-align: justify;
+    margin-top: 1.5rem;
 }
 
-h2 {
-    margin: 0.6em 0;
-    /* Верхній і нижній відступ 20px, лівий і правий - 0 */
-    padding: 0;
+details {
+    margin-bottom: 1.5rem;
+    border-left: 4px solid var(--accent-color);
+    padding-left: 1rem;
 }
 
+details details {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border-left: none;
+    padding-left: 0.5rem;
+}
+
+details summary {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: var(--heading-color);
+    padding: 0.5rem 0;
+    list-style: none;
+    /* Цей рядок прибере стандартну стрілку */
+}
+
+details[open] summary~* {
+    animation: fadeSlideDown 0.3s ease-in-out;
+}
+
+@keyframes fadeSlideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h2,
 h3 {
-    margin: 0;
-    padding: 0;
+    color: var(--heading-color);
+}
+
+ul {
+    padding-left: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+li {
+    margin-bottom: 0.4rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.column {
+    flex: 1 1 300px;
+}
+
+@media (max-width: 768px) {
+    .columns {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contacts {
+        padding-left: 0;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .maintext {
+        text-align: left;
+    }
+}
+
+body.dark-mode {
+    background-color: #1f2937;
+    color: #f3f4f6;
+}
+
+body.dark-mode a {
+    color: #90cdf4;
+}
+
+body.dark-mode a:hover {
+    color: #63b3ed;
+}
+
+body.dark-mode details {
+    border-left-color: #90cdf4;
+}
+
+body.dark-mode summary {
+    color: #f9fafb;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3 {
+    color: #90cdf4;
+    /* світло-блакитний */
+}
+
+
+.theme-toggle {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 1000;
+    color: var(--text-color);
+    transition: transform 0.2s;
+}
+
+body.dark-mode .theme-toggle {
+    color: #f3f4f6;
+}
+
+#scrollUpBtn {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    z-index: 999;
+    font-size: 1.5rem;
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--accent-color);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease;
+}
+
+#scrollUpBtn.show {
+    display: block;
+    opacity: 1;
 }
