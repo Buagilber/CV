@@ -11,6 +11,12 @@
 
 <button id="scrollUpBtn" title="Scroll to top">⬆</button>
 
+<div class="modal-overlay" id="imageModal">
+    <button class="modal-prev" title="Previous">&#8592;</button>
+    <img id="modalImage" src="" alt="Full certificate">
+    <button class="modal-next" title="Next">&#8594;</button>
+</div>
+
 <body>
     <!-- Theme Toggle Button -->
     <button class="theme-toggle" id="themeToggle" title="Toggle Theme">🌙</button>
@@ -215,60 +221,61 @@
                 <summary>
                     <h3>Programming</h3>
                 </summary>
-                <img src="Certificates/Python_3_Certificate.jpg" alt="Python 3 Certificate">
-                <img src="Certificates/Python_Advanced_Certificate.jpg" alt="Python Advanced Certificate">
+                <img class="certificate" src="Certificates/Python_3_Certificate.jpg" alt="Python 3 Certificate">
+                <img class="certificate" src="Certificates/Python_Advanced_Certificate.jpg"
+                    alt="Python Advanced Certificate">
             </details>
 
             <details>
                 <summary>
                     <h3>Databases</h3>
                 </summary>
-                <img src="Certificates/Mongo_DB_Certificate.jpg" alt="MongoDB Certificate">
-                <img src="Certificates/SQL_Certificate.jpg" alt="SQL Certificate">
+                <img class="certificate" src="Certificates/Mongo_DB_Certificate.jpg" alt="MongoDB Certificate">
+                <img class="certificate" src="Certificates/SQL_Certificate.jpg" alt="SQL Certificate">
             </details>
 
             <details>
                 <summary>
                     <h3>Version Control Systems</h3>
                 </summary>
-                <img src="Certificates/Git_Certificate.jpg" alt="Git Certificate">
+                <img class="certificate" src="Certificates/Git_Certificate.jpg" alt="Git Certificate">
             </details>
 
             <details>
                 <summary>
                     <h3>Web Development Foundations</h3>
                 </summary>
-                <img src="Certificates/HTML_Certificate.jpg" alt="HTML Certificate">
-                <img src="Certificates/CSS_Certificate.jpg" alt="CSS Certificate">
+                <img class="certificate" src="Certificates/HTML_Certificate.jpg" alt="HTML Certificate">
+                <img class="certificate" src="Certificates/CSS_Certificate.jpg" alt="CSS Certificate">
             </details>
 
             <details>
                 <summary>
                     <h3>Quality Assurance & Test Automation</h3>
                 </summary>
-                <img src="Certificates/Software_Testing_Certificate.jpg" alt="Software Testing Certificate">
-                <img src="Certificates/Selenium automated testing Certificate.jpg" alt="Selenium Certificate">
+                <img class="certificate" src="Certificates/Software_Testing_Certificate.jpg"
+                    alt="Software Testing Certificate">
+                <img class="certificate" src="Certificates/Selenium automated testing Certificate.jpg"
+                    alt="Selenium Certificate">
             </details>
 
             <details>
                 <summary>
                     <h3>AI from Beginner to Expert Course</h3>
                 </summary>
-                <img src="Certificates/AI_1_fundamentals.jpg" alt="AI fundamentals">
-                <img src="Certificates/AI_2_prompting.jpg" alt="AI prompting">
-                <img src="Certificates/AI_3_advanced.jpg" alt="AI advanced">
-                <!-- <img src="Certificates/AI_2_prompting.jpg" alt="AI prompting">
-                <img src="Certificates/AI_2_prompting.jpg" alt="AI prompting">
-                <img src="Certificates/AI_2_prompting.jpg" alt="AI prompting"> -->
+                <img class="certificate" src="Certificates/AI_1_fundamentals.jpg" alt="AI fundamentals">
+                <img class="certificate" src="Certificates/AI_2_prompting.jpg" alt="AI prompting">
+                <img class="certificate" src="Certificates/AI_3_advanced.jpg" alt="AI advanced">
             </details>
 
             <details>
                 <summary>
                     <h3>Soft Skills & Professional Development</h3>
                 </summary>
-                <!-- <img src="Certificates/My_English_level_is_B2.1.jpg" alt="English Certificate"> -->
-                <img src="Certificates/Typing_Speed_Certificate.jpg" alt="Typing Certificate">
+                <!-- <img class="certificate" src="Certificates/My_English_level_is_B2.1.jpg" alt="English Certificate"> -->
+                <img class="certificate" src="Certificates/Typing_Speed_Certificate.jpg" alt="Typing Certificate">
             </details>
+
         </details>
 
 
@@ -350,6 +357,90 @@
 
     scrollBtn.addEventListener("click", () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+</script>
+
+<script>
+    const modal = document.getElementById('imageModal');
+    const modalImage = document.getElementById('modalImage');
+    const certImages = document.querySelectorAll('.certificate');
+    const prevBtn = document.querySelector('.modal-prev');
+    const nextBtn = document.querySelector('.modal-next');
+
+    let currentIndex = 0;
+
+    function openModal(index) {
+        currentIndex = index;
+        modalImage.src = certImages[currentIndex].src;
+        modal.classList.add('show');
+    }
+
+    function closeModal() {
+        modal.classList.remove('show');
+        modalImage.src = '';
+    }
+
+    function animateImageChange(newIndex, direction = 'right') {
+        const outClass = direction === 'right' ? 'fade-out-left' : 'fade-out-right';
+        const inClass = direction === 'right' ? 'fade-in-right' : 'fade-in-left';
+
+        // додати клас анімації виходу
+        modalImage.classList.add(outClass);
+
+        // після завершення виходу — змінити зображення і запустити вхід
+        setTimeout(() => {
+            modalImage.classList.remove(outClass);
+            modalImage.src = certImages[newIndex].src;
+            modalImage.classList.add(inClass);
+
+            // очистити вхідну анімацію через 300мс
+            setTimeout(() => {
+                modalImage.classList.remove(inClass);
+            }, 300);
+        }, 300);
+
+        currentIndex = newIndex;
+    }
+
+    function showNext() {
+        const newIndex = (currentIndex + 1) % certImages.length;
+        animateImageChange(newIndex, 'right');
+    }
+
+    function showPrev() {
+        const newIndex = (currentIndex - 1 + certImages.length) % certImages.length;
+        animateImageChange(newIndex, 'left');
+    }
+
+    // Клік по сертифікату
+    certImages.forEach((img, index) => {
+        img.style.cursor = 'zoom-in';
+        img.addEventListener('click', () => openModal(index));
+    });
+
+    // Клік по фону або зображенню
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal || e.target === modalImage) closeModal();
+    });
+
+    // Кнопки
+    nextBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        showNext();
+    });
+
+    prevBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        showPrev();
+    });
+
+    // Клавіатура
+    document.addEventListener('keydown', (e) => {
+        if (!modal.classList.contains('show')) return;
+
+        if (e.key === 'Escape') closeModal();
+        if (e.key === 'ArrowRight') showNext();
+        if (e.key === 'ArrowLeft') showPrev();
     });
 </script>
 
