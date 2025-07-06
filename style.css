@@ -34,19 +34,22 @@ body {
 .columns {
     display: flex;
     flex-wrap: wrap;
-    align-items: top;
+    align-items: normal;
     justify-content: center;
     gap: 2rem;
     margin-bottom: 2rem;
 }
 
 .image {
-    width: 190px;
-    height: 250px;
+    width: 200px;
+    height: 265px;
     object-fit: cover;
     border-radius: 15%;
     object-position: center top;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-self: center;
+    /* Це вирівняє зображення на початку перехресної осі (вгорі) */
+    /* Або спробуйте 'center' чи 'end' залежно від бажаного вирівнювання */
 }
 
 .contacts {
